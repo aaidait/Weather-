@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Lato&family=Open+Sans&family=Public+Sans:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form> 
+            <input type="text" name="text" class="search" placeholder="Search for a city..." spellcheck="false" required>
+          </form>
+          <div class="weather-part">
+            <h2>Please enter the name of the city and press enter to see result</h2>
+          </div>
+         
+
+        <div class="weather-list">
+            <div id="list1">
+                <h5>Bishkek, Kyrgyzstan</h5>
+                <p>Wednesday, December 14,
+                    2022
+                </p>
+                <p>13:49</p>
+            </div>
+            <h2 id="list2">
+                <span class="blok2_sun">
+                    <img class="img_sun" src="./1400310.png" alt="sun">
+                   <span class="num">
+                    3°C
+                   </span>
+                </span>
+                <p class="sun-text">Sunny</p>
+            </h2>
+            <div id="list3">
+                <p>Feel like: 3°C</p>
+                <p>Humidty: 76%</p>
+                <p>Wind: 3.6 kph</p>
+            </div>
+        </div>
+       
+          <div class="weather-part1">
+            <h2> No matching location found</h2>
+          </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
